@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "_id": "user_demo_01",
+      "name": "Alex Morgan",
+      "email": "demo@expensetracker.local",
+      "password": "$2a$10$w6K2H5bC8P5/8j1qXb7Q8OB44S.9VqZ3L9T5r3pY9eE2K3m4n5o6u",
+      "currency": "USD",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "tx_001",
+      "userId": "user_demo_01",
+      "title": "Monthly Software Engineering Salary",
+      "amount": 4850,
+      "type": "income",
+      "category": "Salary",
+      "paymentMethod": "Bank Transfer",
+      "date": "2026-09-01T10:00:00.000Z",
+      "notes": "Direct deposit",
+      "createdAt": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "_id": "tx_002",
+      "userId": "user_demo_01",
+      "title": "Apartment Rent",
+      "amount": 1250,
+      "type": "expense",
+      "category": "Housing",
+      "paymentMethod": "Bank Transfer",
+      "date": "2026-09-02T11:00:00.000Z",
+      "notes": "September lease payment",
+      "createdAt": "2026-09-02T11:00:00.000Z"
+    },
+    {
+      "_id": "tx_003",
+      "userId": "user_demo_01",
+      "title": "Whole Foods Grocery",
+      "amount": 215.4,
+      "type": "expense",
+      "category": "Food",
+      "paymentMethod": "Card",
+      "date": "2026-09-05T14:30:00.000Z",
+      "notes": "Weekly produce and pantry",
+      "createdAt": "2026-09-05T14:30:00.000Z"
+    },
+    {
+      "_id": "tx_004",
+      "userId": "user_demo_01",
+      "title": "Electric & Water Utilities",
+      "amount": 118.5,
+      "type": "expense",
+      "category": "Utilities",
+      "paymentMethod": "Card",
+      "date": "2026-09-08T09:15:00.000Z",
+      "notes": "Monthly city utilities",
+      "createdAt": "2026-09-08T09:15:00.000Z"
+    },
+    {
+      "_id": "tx_005",
+      "userId": "user_demo_01",
+      "title": "Freelance API Integration Client",
+      "amount": 950,
+      "type": "income",
+      "category": "Freelance",
+      "paymentMethod": "Bank Transfer",
+      "date": "2026-09-12T16:00:00.000Z",
+      "notes": "Payment for Stripe webhook integration",
+      "createdAt": "2026-09-12T16:00:00.000Z"
+    },
+    {
+      "_id": "tx_006",
+      "userId": "user_demo_01",
+      "title": "Dinner at Osteria Del Sole",
+      "amount": 142.8,
+      "type": "expense",
+      "category": "Food",
+      "paymentMethod": "Card",
+      "date": "2026-09-15T20:30:00.000Z",
+      "notes": "Dinner with friends",
+      "createdAt": "2026-09-15T20:30:00.000Z"
+    },
+    {
+      "_id": "tx_007",
+      "userId": "user_demo_01",
+      "title": "Metro Transit Card Reload",
+      "amount": 85,
+      "type": "expense",
+      "category": "Transportation",
+      "paymentMethod": "UPI",
+      "date": "2026-09-18T08:45:00.000Z",
+      "notes": "Monthly metro commuter pass",
+      "createdAt": "2026-09-18T08:45:00.000Z"
+    },
+    {
+      "_id": "tx_008",
+      "userId": "user_demo_01",
+      "title": "Mechanical Keyboard & Desk Mat",
+      "amount": 189.99,
+      "type": "expense",
+      "category": "Entertainment",
+      "paymentMethod": "Card",
+      "date": "2026-09-22T13:00:00.000Z",
+      "notes": "Keychron Q1 keyboard upgrade",
+      "createdAt": "2026-09-22T13:00:00.000Z"
+    },
+    {
+      "_id": "tx_009",
+      "userId": "user_demo_01",
+      "title": "Farmer Market & Bakery",
+      "amount": 76.5,
+      "type": "expense",
+      "category": "Food",
+      "paymentMethod": "Cash",
+      "date": "2026-09-25T11:20:00.000Z",
+      "notes": "Artisan bread and local berries",
+      "createdAt": "2026-09-25T11:20:00.000Z"
+    }
+  ],
+  "budgets": [
+    {
+      "_id": "b_001",
+      "userId": "user_demo_01",
+      "category": "Housing",
+      "limit": 1300,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "_id": "b_002",
+      "userId": "user_demo_01",
+      "category": "Food",
+      "limit": 500,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "_id": "b_003",
+      "userId": "user_demo_01",
+      "category": "Entertainment",
+      "limit": 250,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "_id": "b_004",
+      "userId": "user_demo_01",
+      "category": "Utilities",
+      "limit": 200,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_001",
+      "userId": "user_demo_01",
+      "title": "Budget Warning: Food",
+      "message": "You have reached 87% ($434.70 / $500.00) of your monthly Food budget.",
+      "type": "warning",
+      "read": false,
+      "createdAt": "2026-09-25T11:21:00.000Z"
+    },
+    {
+      "_id": "notif_002",
+      "userId": "user_demo_01",
+      "title": "Expense Recorded",
+      "message": "-$76.50 on \"Farmer Market & Bakery\" (Food)",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-09-25T11:20:00.000Z"
+    },
+    {
+      "_id": "notif_003",
+      "userId": "user_demo_01",
+      "title": "Income Added",
+      "message": "+$950.00 on \"Freelance API Integration Client\" (Freelance)",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-09-12T16:00:00.000Z"
+    }
+  ]
+}
