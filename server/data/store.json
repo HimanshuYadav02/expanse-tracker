@@ -4,10 +4,19 @@
       "_id": "user_demo_01",
       "name": "Alex Morgan",
       "email": "demo@expensetracker.local",
-      "password": "$2a$10$w6K2H5bC8P5/8j1qXb7Q8OB44S.9VqZ3L9T5r3pY9eE2K3m4n5o6u",
+      "password": "$2a$10$7czl6cLvYSloQWVsLpQzOu.tsptsXD2oQfZ7YUT1SeWQvB63GY.0K",
       "currency": "USD",
       "createdAt": "2026-09-01T08:00:00.000Z",
       "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "_id": "a22d9062f2862d85cbf10807",
+      "name": "Test Dev",
+      "email": "dev@example.com",
+      "password": "$2a$10$zKDzVpbXXD9S42GyhmoFZOpxQtEn6qCksFo/olLd0jmfhI.O2djwi",
+      "currency": "USD",
+      "createdAt": "2026-09-28T18:23:57.904Z",
+      "updatedAt": "2026-09-28T18:23:57.904Z"
     }
   ],
   "transactions": [
