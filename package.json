@@ -4,10 +4,14 @@
   "private": true,
   "description": "Full-Stack Expense Tracker with MERN Stack, C++ Anomaly Engine & Java Auditor",
   "scripts": {
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install --include=dev",
+    "postinstall": "npm run install:server && npm run install:client",
+    "build": "npm --prefix client run build",
+    "start": "node server/src/server.js",
     "dev:server": "npm --prefix server run dev",
     "dev:client": "npm --prefix client run dev",
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run dev:server\" \"npm run dev:client\"",
-    "build": "npm --prefix client run build",
     "build:cpp": "g++ -O2 -std=c++14 cpp-engine/src/anomaly_detector.cpp -o cpp-engine/anomaly_detector.exe",
     "build:java": "javac -d java-auditor java-auditor/src/BudgetAuditor.java",
     "compile-engines": "npm run build:cpp && npm run build:java"
