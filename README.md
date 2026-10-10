@@ -1,6 +1,14 @@
 # ExpenseTracker - Financial Management & Anomaly Detection System
 
+
+
 A production-grade, full-stack personal finance and expense tracking application built on the **MERN** stack, augmented with a high-performance **C++ Statistical Anomaly Detection Engine** and a **Java Budget Auditor**.
+
+
+## 🚀 Live Demo
+
+ 
+ [Live Project Demo](https://expanse-tracker-1-wqic.onrender.com)
 
 ---
 
